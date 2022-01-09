@@ -12,6 +12,8 @@ help = on_command('help')
 async def _(bot: Bot, event: MessageEvent):
     help_menu = f"""咱支持的命令有:
 - pkg: 查询archlinux官方仓库的包
+- spkg: 模糊搜索archlinux官方仓库的包
+- mter: 查询archlinux官方仓库里的包维护者
 - aur: 查询aur上的包
 - saur: 模糊搜索aur上的包
 - mater: 查询aur上的包维护者
