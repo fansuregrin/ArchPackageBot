@@ -1,4 +1,3 @@
-import re
 import time
 from httpx import AsyncClient
 import asyncio
