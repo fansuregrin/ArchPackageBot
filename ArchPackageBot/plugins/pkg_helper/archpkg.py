@@ -143,7 +143,7 @@ async def search_aur_pkg(keyword: str='') -> str:
                     break
                 count += 1
                 pkg_names.append(pkg['Name'])
-            pkgs = '\n'.join(pkg_list)
+            pkgs = '\n'.join(pkg_names)
             pkg_string = f'在aur上与"{keyword}"有关的包有以下{pkg_count}个：\n{pkgs}......'
         else:
             pkg_string = '啥也没有丫～'
